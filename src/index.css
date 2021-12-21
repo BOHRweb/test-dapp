@@ -1,0 +1,92 @@
+section {
+  margin: 20px 0 20px 0;
+}
+
+.info-text {
+  font-size: 1.1em;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+/* Logo & Header */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-container {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+#logo-text {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+#mm-logo {
+  width: 100%;
+  height: 150px;
+}
+
+/* Encrypt/Decrypt */
+
+#encryptMessageInput {
+  margin-bottom: 1rem;
+}
+
+.creat-input {
+  color: #4e4e4e;
+  border: 1px solid #4e4e4e;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.toast-warp {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.show-toast {
+  position: fixed;
+  top: 200px;
+  left: 50%;
+  margin-left: -200px;
+  min-height: 60px;
+  width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #232323;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px solid #f5f5f5;
+}
+.show-tips {
+  position: fixed;
+  top: 140px;
+  left: 50%;
+  margin-left: -210px;
+  min-height: 50px;
+  width: 420px;
+  padding: 20px;
+  background-color: #707070;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  display: none;
+}
