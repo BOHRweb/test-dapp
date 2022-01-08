@@ -3,7 +3,7 @@ let encodeAddress = require("./address")
 
 let addressType = 1;
 
-//地址切割
+//
 function addressSplice (item , num) {
 	if (typeof item != 'undefined' && item != null) {
 		if(item.length>30){
